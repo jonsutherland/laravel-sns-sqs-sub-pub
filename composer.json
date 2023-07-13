@@ -1,19 +1,19 @@
 {
-    "name": "mvjacobs/laravel-sns-sqs-sub-pub",
+    "name": "jonsutherland/laravel-sns-sqs-sub-pub",
     "description": "A simple Laravel service provider which adds a new queue connector to handle SNS subscription queues.",
     "license": "MIT",
     "keywords": ["laravel", "lumen", "queue", "sns subscription", "sns publishing", "microservices", "event-driven", "aws", "sqs", "sns"],
     "type": "library",
     "require": {
         "php": ">=7.0",
-        "illuminate/queue": "^8.0",
-        "illuminate/support": "^8.0",
+        "illuminate/queue": "^9.0",
+        "illuminate/support": "^9.0",
         "aws/aws-sdk-php": "^3.91",
         "ext-json": "*"
     },
     "authors": [
         {
-            "name": "mvjacobs",
+            "name": "jonsutherland",
             "email": "support@mvjacobs.com",
             "role": "Developer"
         }
