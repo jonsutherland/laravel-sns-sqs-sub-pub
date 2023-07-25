@@ -6,7 +6,6 @@
     "type": "library",
     "require": {
         "php": ">=7.0",
-        "illuminate/queue": "^9.0",
         "aws/aws-sdk-php": "^3.91",
         "ext-json": "*"
     },
